@@ -40,14 +40,14 @@ config pull
 To set up your dotfiles on a new system, follow these steps:
 
 ```bash
-git clone --bare git@github.com:ThousandEyedLibrarian/dotfiles-macos.git $HOME/dotfiles
+git clone --bare git@github.com:Carter-FS/dotfiles-macos.git $HOME/dotfiles-macos
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles-macos/ --work-tree=$HOME'
 config checkout
 ```
 
 ### Notes
 
-If you find any errors, issues, or have any questions, please feel free to either log an issue or [contact me](mailto:carterfs@proton.me).
+If you find any errors, issues, or have any questions, please feel free to either log an issue or [contact me](mailto:carterfaceysmith@gmail.com).
 
 ### References
 
