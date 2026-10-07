@@ -52,3 +52,9 @@ If you find any errors, issues, or have any questions, please feel free to eithe
 ### References
 
 - [Atlassian Bare Repo Dotfiles](https://www.atlassian.com/git/tutorials/dotfiles)
+- [FelixKratz/dotfiles](https://github.com/FelixKratz/dotfiles) - SketchyBar configuration this setup is based on (GPL-3.0)
+- [LazyVim starter](https://github.com/LazyVim/starter) - Neovim configuration base (Apache-2.0)
+
+### Licence
+
+Copyright (C) 2023 Carter Facey-Smith. Released under the GPL-3.0 licence (see `LICENSE`). The Neovim configuration in `.config/nvim/` keeps its original Apache-2.0 licence.
