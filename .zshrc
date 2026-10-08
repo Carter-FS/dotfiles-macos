@@ -41,12 +41,11 @@ alias search='fzf --preview="bat --color=always {}"'
 alias mkdir='mkdir -p'
 alias x='exit'
 
-alias sync-brain="cd ~/Sync/SecondBrain ; git pull ; git add . ; git commit -am \"Automated update.\" ; git push ; cd -"
 
-alias xc="xclip"
-alias xv="xclip -o"
-alias cs="xclip -selection clipboard"
-alias vs="xclip -o -selection clipboard"
+alias xc="pbcopy"
+alias xv="pbpaste"
+alias cs="pbcopy"
+alias vs="pbpaste"
 
 # Environment variables
 export PATH="$PATH:$HOME/.local/bin"
